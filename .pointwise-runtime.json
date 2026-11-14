@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "kind": "cli",
+  "setup": [
+    ["python3", "-c", "import sys; print(sys.version.split()[0])"]
+  ],
+  "verify": [
+    ["python3", "tv_cli.py", "verify"]
+  ],
+  "demo": [
+    ["python3", "tv_cli.py", "demo", "--full"]
+  ]
+}
